@@ -1,0 +1,166 @@
+{
+  "product": [
+    {
+      "title": "Earbuds boat white classic  ",
+      "category": "earbuds",
+      "price": 39.99,
+      "img": "/products/earbuds-prod-1.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.",
+      "id": 1
+    },
+    {
+      "title": "Earbuds boat black superman  limited edition",
+      "category": "earbuds",
+      "price": 99.99,
+      "img": "/products/earbuds-prod-2.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 2
+    },
+    {
+      "title": "Earbuds boat black 14 pro",
+      "category": "earbuds",
+      "price": 49.99,
+      "img": "/products/earbuds-prod-3.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 3
+    },
+    {
+      "title": "Earbuds boat yellow",
+      "category": "earbuds",
+      "price": 44.99,
+      "img": "/products/earbuds-prod-4.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 4
+    },
+    {
+      "title": "Earbuds boat into nirvana",
+      "category": "earbuds",
+      "price": 49.99,
+      "img": "/products/earbuds-prod-5.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 5
+    },
+    {
+      "title": "Headphone Boat black signature 32W  ",
+      "category": "headphone",
+      "price": 79.99,
+      "img": "/products/headphone-prod-1.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 6
+    },
+    {
+      "title": "Headphone Boat portable, bluetooth, wireless 32W  ",
+      "category": "headphone",
+      "price": 49.99,
+      "img": "/products/headphone-prod-2.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 7
+    },
+    {
+      "title": "Headphone Centurion burgundy 32W  ",
+      "category": "headphone",
+      "price": 74.99,
+      "img": "/products/headphone-prod-3.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 8
+    },
+    {
+      "title": "Headphone Centurion purple light 32W",
+      "category": "headphone",
+      "price": 69.99,
+      "img": "/products/headphone-prod-4.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 9
+    },
+    {
+      "title": "Headphone Centurion into nirvana 32W",
+      "category": "headphone",
+      "price": 59.99,
+      "img": "/products/headphone-prod-5.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 10
+    },
+    {
+      "title": "Wireless headset Boat tech250 ",
+      "category": "speaker",
+      "price": 49.99,
+      "img": "/products/speaker-prod-1.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 11
+    },
+    {
+      "title": "Wireless headset Boat superman 550C+ ",
+      "category": "speaker",
+      "price": 49.99,
+      "img": "/products/speaker-prod-2.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 12
+    },
+    {
+      "title": "Wireless headset Boat premium yellow 425 ",
+      "category": "speaker",
+      "price": 49.99,
+      "img": "/products/speaker-prod-3.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 13
+    },
+    {
+      "title": "Wireless headset Boat red classic",
+      "category": "speaker",
+      "price": 39.99,
+      "img": "/products/speaker-prod-4.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 14
+    },
+    {
+      "title": "Wireless headset Boat superman 550C+ limited edition",
+      "category": "speaker",
+      "price": 69.99,
+      "img": "/products/speaker-prod-5.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 15
+    },
+    {
+      "title": "Connected watch Boat metalized gray ",
+      "category": "watch",
+      "price": 109.99,
+      "img": "/products/watch-prod-1.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 16
+    },
+    {
+      "title": "Connected watch Boat osiris ",
+      "category": "watch",
+      "price": 79.99,
+      "img": "/products/watch-prod-2.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 17
+    },
+    {
+      "title": "Connected watch Boat fitness  ",
+      "category": "watch",
+      "price": 49.99,
+      "img": "/products/watch-prod-3.webp",
+      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "id": 18
+    },
+    {
+      "2": "",
+      "id": 19
+    },
+    {
+      "5": "",
+      "id": 20
+    },
+    {
+      "15": "",
+      "id": 21
+    }
+  ],
+  "add-product": [
+    {}
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

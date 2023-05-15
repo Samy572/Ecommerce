@@ -11,6 +11,7 @@ import { Provider } from 'react-redux';
 import rootReducer from './reducer';
 import { configureStore } from '@reduxjs/toolkit';
 import { getProduct } from './action/products.action';
+
 const store = configureStore({
 	reducer: rootReducer,
 	devTools: true,
