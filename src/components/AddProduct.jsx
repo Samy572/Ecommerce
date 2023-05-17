@@ -1,9 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
-import { postProduct } from '../action/products.action';
-import { useDispatch } from 'react-redux';
+import { addToCart } from '../action/cart.action';
+import { useDispatch, useSelector } from 'react-redux';
+
 const AddProduct = ({ itemSelected }) => {
 	const [counter, setCounter] = useState(1);
+	const itemInStore = useSelector((state) => state.productReducer);
 	const dispatch = useDispatch();
 
 	const reducesCount = () => {
@@ -11,7 +13,7 @@ const AddProduct = ({ itemSelected }) => {
 			setCounter(counter - 1);
 		}
 	};
-	const addToCart = (id) => {
+	const addItemToCart = async () => {
 		const newProduct = {
 			count: counter,
 			title: itemSelected.title,
@@ -19,7 +21,8 @@ const AddProduct = ({ itemSelected }) => {
 			img: itemSelected.img,
 			id: itemSelected.id,
 		};
-		dispatch(postProduct(newProduct));
+
+		await dispatch(addToCart(newProduct));
 	};
 
 	return (
@@ -36,7 +39,7 @@ const AddProduct = ({ itemSelected }) => {
 						+
 					</button>
 				</div>
-				<button className="add-to-cart" onClick={() => addToCart(itemSelected.id)}>
+				<button className="add-to-cart" onClick={() => addItemToCart(itemSelected)}>
 					ADD TO CART
 				</button>
 			</div>

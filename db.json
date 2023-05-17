@@ -143,24 +143,22 @@
       "img": "/products/watch-prod-3.webp",
       "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
       "id": 18
-    },
-    {
-      "2": "",
-      "id": 19
-    },
-    {
-      "5": "",
-      "id": 20
-    },
-    {
-      "15": "",
-      "id": 21
     }
   ],
-  "add-product": [
-    {}
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "product-cart": [
+    {
+      "count": 2,
+      "title": "Earbuds boat white classic  ",
+      "price": 39.99,
+      "img": "/products/earbuds-prod-1.webp",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "title": "Earbuds boat black superman  limited edition",
+      "price": 99.99,
+      "img": "/products/earbuds-prod-2.webp",
+      "id": 2
+    }
+  ]
 }

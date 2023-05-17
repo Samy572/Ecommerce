@@ -11,6 +11,7 @@ import { Provider } from 'react-redux';
 import rootReducer from './reducer';
 import { configureStore } from '@reduxjs/toolkit';
 import { getProduct } from './action/products.action';
+import { getProductFromCart } from './action/cart.action';
 
 const store = configureStore({
 	reducer: rootReducer,
@@ -18,6 +19,7 @@ const store = configureStore({
 });
 
 store.dispatch(getProduct());
+store.dispatch(getProductFromCart());
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<BrowserRouter>
