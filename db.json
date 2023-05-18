@@ -147,18 +147,11 @@
   ],
   "product-cart": [
     {
-      "count": 2,
-      "title": "Earbuds boat white classic  ",
-      "price": 39.99,
-      "img": "/products/earbuds-prod-1.webp",
-      "id": 1
-    },
-    {
       "count": 1,
-      "title": "Earbuds boat black superman  limited edition",
-      "price": 99.99,
-      "img": "/products/earbuds-prod-2.webp",
-      "id": 2
+      "title": "Earbuds boat yellow",
+      "price": 44.99,
+      "img": "/products/earbuds-prod-4.webp",
+      "id": 4
     }
   ]
 }

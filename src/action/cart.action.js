@@ -25,12 +25,12 @@ export const getProductFromCart = () => {
 	};
 };
 
-// Supprimer un produit dans le store
+// Remove product from store
 
-export const deleteProduct = (data) => {
+export const deleteProduct = (dataId) => {
 	return (dispacth) => {
-		return axios.delete(`${ROOT_URL}/product/${data.id}`).then(() => {
-			dispacth({ type: DELETE_PRODUCT, payload: data.id });
+		return axios.delete(`${ROOT_URL}/product-cart/${dataId}`).then(() => {
+			dispacth({ type: DELETE_PRODUCT, payload: dataId });
 		});
 	};
 };

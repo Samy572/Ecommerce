@@ -5,11 +5,9 @@ import { deleteProduct } from '../action/cart.action';
 const Cart = () => {
 	const dispatch = useDispatch();
 	const itemInCart = useSelector((state) => state.cartReducer);
-	console.log(itemInCart);
 
-
-	const deleteItem = (item) => {
-		dispatch(deleteProduct(item.id));
+	const deleteItem = (id) => {
+		dispatch(deleteProduct(id));
 	};
 
 	return (
@@ -23,9 +21,10 @@ const Cart = () => {
 							<div key={id}>
 								<h4>{item?.title}</h4>
 								<img src={item?.img} alt={item?.title} />
-								<p>{item?.price}</p>
-								<p>{item?.count}</p>
-								<button onClick={() => deleteItem(item)}>X</button>
+								<p> Prix: {item?.price} €</p>
+								<p>Quantité: {item?.count}</p>
+								<p>Total: {(item?.price * item?.count).toFixed(2)} €</p>
+								<button onClick={() => deleteItem(item.id)}>X</button>
 							</div>
 						);
 					})}

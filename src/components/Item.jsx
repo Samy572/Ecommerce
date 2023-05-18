@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
-const Item = () => {
-	const products = useSelector((state) => state.productReducer);
+const Item = ({ products }) => {
+	const dispatch = useDispatch();
 
 	return (
 		<div className="card">
@@ -14,7 +14,7 @@ const Item = () => {
 							<h2>{product.title}</h2>
 							<p>{product.description}</p>
 							<img src={product.img} alt={product.title} />
-							<p>{product.price}</p>
+							<p>{product.price + ' €'}</p>
 						</NavLink>
 					</div>
 				))}
