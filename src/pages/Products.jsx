@@ -26,38 +26,34 @@ const Products = () => {
 	};
 
 	return (
-		<div>
-			<Header />
-			<div className="container">
-				<div className="search">
-					<input id="search" type="search" />
-					<label htmlFor="search">Rechercher</label>
+		<>
+			<div className="products">
+				<div className="container-products">
+					<h4>Select your Category</h4>
+					<nav>
+						<ul className="category">
+							<Category
+								category="earbuds"
+								onCategoryClick={() => filterProductsByCategory('earbuds')}
+							/>
+							<Category
+								category="headphones"
+								onCategoryClick={() => filterProductsByCategory('headphones')}
+							/>
+							<Category
+								category="speaker"
+								onCategoryClick={() => filterProductsByCategory('speaker')}
+							/>
+							<Category
+								category="watch"
+								onCategoryClick={() => filterProductsByCategory('watch')}
+							/>
+						</ul>
+					</nav>
+					<Item products={productCategory} />
 				</div>
-				<nav>
-					<ul
-						style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-around' }}
-					>
-						<Category
-							category="Earbuds"
-							onCategoryClick={() => filterProductsByCategory('earbuds')}
-						/>
-						<Category
-							category="headphone"
-							onCategoryClick={() => filterProductsByCategory('headphone')}
-						/>
-						<Category
-							category="speaker"
-							onCategoryClick={() => filterProductsByCategory('speaker')}
-						/>
-						<Category
-							category="watch"
-							onCategoryClick={() => filterProductsByCategory('watch')}
-						/>
-					</ul>
-				</nav>
-				<Item products={productCategory} />
 			</div>
-		</div>
+		</>
 	);
 };
 

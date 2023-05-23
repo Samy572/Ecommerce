@@ -1,0 +1,30 @@
+.container-products {
+	
+	width: 100%;
+	min-height: 100vh;
+	overflow-x: hidden;
+	display: grid;
+	grid-template-columns: 1fr;
+	h4 {
+		text-align: center;
+		margin: 50px 0;
+	}
+}
+
+.category {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	height: auto;
+	height: 125px;
+	align-items: end;
+	border-bottom: solid 1px $white;
+	border-top: solid 1px $white;
+	margin-bottom: 150px;
+}
+
+.category-img {
+	height: 100%;
+	width: 100%;
+	flex-grow: 1 auto;
+	cursor: pointer;
+}

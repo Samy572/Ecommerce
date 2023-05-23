@@ -1,0 +1,56 @@
+.newsletter {
+	overflow-x: hidden;
+	width: 100%;
+	margin-top: 70px;
+	z-index: 2;
+	background: url('/newsletter-bg.jpeg');
+	padding: 70px 0px;
+	color: $black;
+	p {
+		color: rgb(65, 63, 63);
+		font-size: 16px;
+	}
+	h3 {
+		color: black;
+		z-index: 5;
+		font-size: clamp(1.2rem, 4vw, 1.5rem);
+		letter-spacing: 15px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+label {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+.container-subscribe {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	button {
+		cursor: pointer;
+		padding: 7px;
+		margin-left: 5px;
+		border: none;
+		background-color: rebeccapurple;
+		color: $white;
+	}
+	input {
+		padding-left: 5px;
+	}
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	li {
+		margin: 5px;
+		cursor: pointer;
+	}
+}

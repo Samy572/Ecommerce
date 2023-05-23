@@ -1,0 +1,25 @@
+@import '../components/addProduct';
+.container-product-detail{
+  margin-top: 20px;
+  h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+}
+
+.container-img-title-description{
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  p{
+    text-align: left;
+
+  }
+}
+
+.img-product-detail{
+  width: 350px;
+  background-color: rgb(243, 229, 248);
+}

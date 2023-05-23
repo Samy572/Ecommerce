@@ -1,3 +1,40 @@
-.nav-active {
-	color: blue;
+header {
+	background-color: $black;
+	width: 100%;
+	padding: 0 10px;
+	top: 0;
+
+	ul {
+		height: 50px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		align-items: center;
+		justify-items: center;
+		h2 {
+			padding: 0;
+			font-size: 16px;
+			letter-spacing: 5px;
+			color: rgb(165, 118, 212);
+		}
+		a {
+			z-index: 1;
+			color: $white;
+		}
+	}
+}
+
+.main-navigation,
+li:last-child {
+	position: relative;
+}
+
+.count-cart {
+	position: absolute;
+	left: 12px;
+	top: -5px;
+	font-size: 10px;
+	padding: 2px;
+	border: solid 1px white;
+	border-radius: 50%;
+	background-color: rgb(140, 30, 30);
 }

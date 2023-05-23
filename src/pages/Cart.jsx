@@ -11,7 +11,7 @@ const Cart = () => {
 	};
 
 	return (
-		<div>
+		<div className="cart">
 			<Header />
 			<h2>Panier</h2>
 			<div className="container">

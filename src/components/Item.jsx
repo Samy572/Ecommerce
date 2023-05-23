@@ -11,10 +11,13 @@ const Item = ({ products }) => {
 				products?.map((product) => (
 					<div key={product.id} className="card">
 						<NavLink to={`/product/${product.id}`} key={product.id}>
-							<h2>{product.title}</h2>
-							<p>{product.description}</p>
-							<img src={product.img} alt={product.title} />
-							<p>{product.price + ' €'}</p>
+							<div className="container-product-img">
+								<img src={product.img} alt={product.title} />
+							</div>
+							<div className="container-product-infos">
+								<h3>{product.title}</h3>
+								<span>{product.price + ' €'}</span>
+							</div>
 						</NavLink>
 					</div>
 				))}

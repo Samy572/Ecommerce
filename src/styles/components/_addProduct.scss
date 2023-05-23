@@ -1,0 +1,44 @@
+.button-container-add-to-cart {
+	margin-top: 20px;
+  margin-bottom: 10px;
+	display: flex;
+	height: 40px;
+	.button-container {
+		display: flex;
+		width: 150px;
+	}
+	.btn-more,
+	.btn-least {
+    cursor: pointer;
+		width: 50px;
+		border: solid 1px #c2bdbd;
+	}
+	.counter {
+		flex: 1 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.button-container {
+	border: solid 1px #c2bdbd;
+	margin-right: 10px;
+}
+
+.add-to-cart {
+  cursor: pointer;
+	padding: 0 15px;
+	border: none;
+	background-color: rebeccapurple;
+	color: white;
+	&:hover {
+		background-color: rgb(126, 63, 188);
+	}
+}
+.add-product-price{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}

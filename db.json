@@ -5,7 +5,7 @@
       "category": "earbuds",
       "price": 39.99,
       "img": "/products/earbuds-prod-1.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 1
     },
     {
@@ -13,7 +13,7 @@
       "category": "earbuds",
       "price": 99.99,
       "img": "/products/earbuds-prod-2.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 2
     },
     {
@@ -21,7 +21,7 @@
       "category": "earbuds",
       "price": 49.99,
       "img": "/products/earbuds-prod-3.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 3
     },
     {
@@ -29,7 +29,7 @@
       "category": "earbuds",
       "price": 44.99,
       "img": "/products/earbuds-prod-4.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 4
     },
     {
@@ -37,47 +37,47 @@
       "category": "earbuds",
       "price": 49.99,
       "img": "/products/earbuds-prod-5.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 5
     },
     {
-      "title": "Headphone Boat black signature 32W  ",
-      "category": "headphone",
+      "title": "headphones Boat black signature 32W  ",
+      "category": "headphones",
       "price": 79.99,
-      "img": "/products/headphone-prod-1.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "img": "/products/headphones-prod-1.webp",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 6
     },
     {
-      "title": "Headphone Boat portable, bluetooth, wireless 32W  ",
-      "category": "headphone",
+      "title": "headphones Boat portable, bluetooth 32W  ",
+      "category": "headphones",
       "price": 49.99,
-      "img": "/products/headphone-prod-2.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "img": "/products/headphones-prod-2.webp",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 7
     },
     {
-      "title": "Headphone Centurion burgundy 32W  ",
-      "category": "headphone",
+      "title": "headphones Centurion burgundy 32W  ",
+      "category": "headphones",
       "price": 74.99,
-      "img": "/products/headphone-prod-3.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "img": "/products/headphones-prod-3.webp",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 8
     },
     {
-      "title": "Headphone Centurion purple light 32W",
-      "category": "headphone",
+      "title": "headphones Centurion purple light 32W",
+      "category": "headphones",
       "price": 69.99,
-      "img": "/products/headphone-prod-4.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "img": "/products/headphones-prod-4.webp",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 9
     },
     {
-      "title": "Headphone Centurion into nirvana 32W",
-      "category": "headphone",
+      "title": "headphones Centurion into nirvana 32W",
+      "category": "headphones",
       "price": 59.99,
-      "img": "/products/headphone-prod-5.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "img": "/products/headphones-prod-5.webp",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 10
     },
     {
@@ -85,7 +85,7 @@
       "category": "speaker",
       "price": 49.99,
       "img": "/products/speaker-prod-1.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 11
     },
     {
@@ -93,7 +93,7 @@
       "category": "speaker",
       "price": 49.99,
       "img": "/products/speaker-prod-2.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 12
     },
     {
@@ -101,7 +101,7 @@
       "category": "speaker",
       "price": 49.99,
       "img": "/products/speaker-prod-3.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 13
     },
     {
@@ -109,15 +109,15 @@
       "category": "speaker",
       "price": 39.99,
       "img": "/products/speaker-prod-4.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 14
     },
     {
-      "title": "Wireless headset Boat superman 550C+ limited edition",
+      "title": "Wireless headset Boat superman 550C+",
       "category": "speaker",
       "price": 69.99,
       "img": "/products/speaker-prod-5.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 15
     },
     {
@@ -125,7 +125,7 @@
       "category": "watch",
       "price": 109.99,
       "img": "/products/watch-prod-1.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 16
     },
     {
@@ -133,7 +133,7 @@
       "category": "watch",
       "price": 79.99,
       "img": "/products/watch-prod-2.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 17
     },
     {
@@ -141,17 +141,24 @@
       "category": "watch",
       "price": 49.99,
       "img": "/products/watch-prod-3.webp",
-      "description": "Lorem ipsum dolor sit amet. Et excepturi officiis qui doloremque expedita qui molestias tempore. Eos beatae quasi qui galisum voluptas et necessitatibus temporibus et repellendus molestiae! Aut iusto quae qui molestiae maiores sit dignissimos facilis aut numquam omnis quo laborum asperiores. 33 sunt aperiam aut repudiandae illum aut alias odio? Ut voluptatibus quasi sit explicabo facere eum voluptas repellendus et repudiandae optio et quia dolor ut libero quia.  ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga veritatis rem at blanditiis aliquam id, eveniet tenetur reprehenderit magni dolorem expedita aut, unde ut?",
       "id": 18
     }
   ],
   "product-cart": [
     {
-      "count": 1,
-      "title": "Earbuds boat yellow",
-      "price": 44.99,
-      "img": "/products/earbuds-prod-4.webp",
-      "id": 4
+      "count": 7,
+      "title": "Earbuds boat black 14 pro",
+      "price": 49.99,
+      "img": "/products/earbuds-prod-3.webp",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "title": "headphones Boat black signature 32W  ",
+      "price": 79.99,
+      "img": "/products/headphones-prod-1.webp",
+      "id": 6
     }
   ]
 }

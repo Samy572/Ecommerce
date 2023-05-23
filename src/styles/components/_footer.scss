@@ -1,0 +1,23 @@
+footer {
+	height: 200px;
+	background: #f6f5f5;
+	color: $gray;
+	border-top: solid 1px rgb(220, 211, 211);
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+	a {
+		color: $gray;
+	}
+}
+
+
+
+.contact{
+  text-align: center;
+  line-height: 23px;
+  h4{
+    margin-bottom: 20px;
+  }
+}

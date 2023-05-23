@@ -10,12 +10,18 @@ const ProductDetail = () => {
 	return (
 		<div>
 			<Header />
-			<div className="container">
-				<h2>{itemSelected?.title}</h2>
-				<p>{itemSelected?.description}</p>
-				<img src={itemSelected?.img} alt={itemSelected?.title} />
-				<p>{itemSelected?.price + ' €'}</p>
-				<AddProduct itemSelected={itemSelected} />
+			<div className="container-product-detail">
+				<div className="container-img-title-description">
+					<img
+						className="img-product-detail"
+						src={itemSelected?.img}
+						alt={itemSelected?.title}
+					/>
+					<h2>{itemSelected?.title}</h2>
+					<p>{itemSelected?.description}</p>
+				</div>
+
+				<AddProduct price={itemSelected.price} itemSelected={itemSelected} />
 			</div>
 		</div>
 	);

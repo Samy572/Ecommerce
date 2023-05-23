@@ -1,0 +1,45 @@
+.sales {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	background: linear-gradient(to right, #2a0845, #6441a5);
+}
+
+.container-img-sales {
+	width: 100%;
+	height: 370px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		width: 350px;
+		height: 100%;
+	}
+}
+
+p {
+	text-align: center;
+	font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+.container-btn-sales {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	button {
+		height: 35px;
+		padding: 5px 10px;
+		background-color: transparent;
+		border: solid 1px $white;
+		color: $white;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		&:hover {
+			background-color: $white;
+			color: $black;
+		}
+	}
+}
