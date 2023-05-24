@@ -10,14 +10,15 @@ const ProductDetail = () => {
 	return (
 		<div>
 			<Header />
-			<div className="container-product-detail">
+			<div className="container-item-selected">
 				<div className="container-img-title-description">
+					<h2 className='title-item-selected'>{itemSelected?.title}</h2>
 					<img
 						className="img-product-detail"
 						src={itemSelected?.img}
 						alt={itemSelected?.title}
 					/>
-					<h2>{itemSelected?.title}</h2>
+
 					<p>{itemSelected?.description}</p>
 				</div>
 

@@ -12,7 +12,7 @@ const Sales = () => {
 			</div>
 
 			<p>
-				Vibrez au rythme de la nature <br /> avec EcoBeats.
+			vibrate to the rhythm of nature  <br /> with EcoBeats.
 			</p>
 			<div className="container-btn-sales">
 				<button>READ MORE</button>

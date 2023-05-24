@@ -5,16 +5,16 @@ const Header = () => {
 	const itemInCart = useSelector((state) => state.cartReducer);
 
 	return (
-		<div>
+		<div className='className="main-navigation"'>
 			<header>
-				<nav className="main-navigation">
+				<nav>
 					<ul>
 						<li>
 							<h2>ECOBEATS</h2>
 						</li>
 						<li>
 							<NavLink to="/" className={(li) => (li.isActive ? 'nav-active' : '')}>
-								ACCUEIL
+								HOME
 							</NavLink>
 						</li>
 
@@ -27,7 +27,7 @@ const Header = () => {
 							</NavLink>
 						</li>
 						<li aria-label="panier" title="panier">
-							<NavLink to="/panier">
+							<NavLink to="/cart">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="16"

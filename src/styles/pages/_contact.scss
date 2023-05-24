@@ -1,0 +1,52 @@
+
+.form-container{
+  height: 100vh;
+  background-color: $black;
+  
+  color: $gray;
+  .contact-us{
+    color: $gray;
+  }
+}
+
+form {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.form-content{
+  margin-top: 60px;
+  height: 200px;
+}
+
+.fa-user {
+	position: absolute;
+	top: 18px;
+	left: 2px;
+}
+
+.fa-envelope {
+	position: absolute;
+	top: 55px;
+	left: 2px;
+}
+
+input {
+	outline: 0;
+	padding: 2px 0 2px 25px;
+	border-width: 0 0 1px;
+	border-color: $gray;
+}
+
+textarea{
+  margin-top: 5px;
+  padding-left: 15px;
+}
+.submit{
+  margin-top: 15px;
+  padding: 2px;
+  height: 25px;
+}

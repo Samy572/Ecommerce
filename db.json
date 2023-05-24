@@ -147,18 +147,18 @@
   ],
   "product-cart": [
     {
-      "count": 7,
-      "title": "Earbuds boat black 14 pro",
-      "price": 49.99,
-      "img": "/products/earbuds-prod-3.webp",
-      "id": 3
+      "count": 2,
+      "title": "Earbuds boat black superman  limited edition",
+      "price": 99.99,
+      "img": "/products/earbuds-prod-2.webp",
+      "id": 2
     },
     {
-      "count": 2,
-      "title": "headphones Boat black signature 32W  ",
-      "price": 79.99,
-      "img": "/products/headphones-prod-1.webp",
-      "id": 6
+      "count": 10,
+      "title": "Wireless headset Boat superman 550C+ ",
+      "price": 49.99,
+      "img": "/products/speaker-prod-2.webp",
+      "id": 12
     }
   ]
 }
