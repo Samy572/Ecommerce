@@ -11,7 +11,7 @@ const Cart = () => {
 		itemInCart.forEach((element) => {
 			totalPrice += element.price * element.count;
 		});
-		return 'Total : ' + totalPrice + ' €';
+		return 'Total : ' + totalPrice.toFixed(2) + ' €';
 	};
 
 	const deleteItem = (id) => {
@@ -21,14 +21,18 @@ const Cart = () => {
 	return (
 		<div className="cart">
 			<Header />
-			<h2>Your shopping cart</h2>
+			{itemInCart.length > 0 ? (
+				<h2>Your shopping cart</h2>
+			) : (
+				<h2>Add products to your cart</h2>
+			)}
 			<div className="container-cart">
 				{itemInCart &&
 					itemInCart?.map((item, id) => {
 						return (
 							<div className="container-item-cart" key={id}>
 								<div className="cart-title">
-									<h4>{item?.title}</h4>
+									<h4 title={item.title}>{item?.title}</h4>
 								</div>
 								<div className="cart-img">
 									<img src={item?.img} alt={item?.title} />
@@ -45,7 +49,7 @@ const Cart = () => {
 			</div>
 			<div className="checkout-container">
 				<span className="cart-total-item">{itemInCart.length > 0 ? total() : null}</span>
-				<NavLink className="checkout" to="/checkout">
+				<NavLink className={itemInCart.length > 0 ? 'checkout' : null} to="/checkout">
 					{' '}
 					{itemInCart.length > 0 ? 'Checkout' : null}
 				</NavLink>

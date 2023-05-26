@@ -145,20 +145,5 @@
       "id": 18
     }
   ],
-  "product-cart": [
-    {
-      "count": 2,
-      "title": "Earbuds boat black superman  limited edition",
-      "price": 99.99,
-      "img": "/products/earbuds-prod-2.webp",
-      "id": 2
-    },
-    {
-      "count": 10,
-      "title": "Wireless headset Boat superman 550C+ ",
-      "price": 49.99,
-      "img": "/products/speaker-prod-2.webp",
-      "id": 12
-    }
-  ]
+  "product-cart": []
 }

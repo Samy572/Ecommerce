@@ -1,15 +1,17 @@
 .button-container-add-to-cart {
 	margin-top: 20px;
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 	display: flex;
+	justify-content: space-evenly;
 	height: 40px;
 	.button-container {
 		display: flex;
-		width: 150px;
+		
+		width: 270px;
 	}
 	.btn-more,
 	.btn-least {
-    cursor: pointer;
+		cursor: pointer;
 		width: 50px;
 		border: solid 1px #c2bdbd;
 	}
@@ -27,7 +29,8 @@
 }
 
 .add-to-cart {
-  cursor: pointer;
+	margin-left: 7px;
+	cursor: pointer;
 	padding: 0 15px;
 	border: none;
 	background-color: rebeccapurple;
@@ -36,9 +39,9 @@
 		background-color: rgb(126, 63, 188);
 	}
 }
-.add-product-price{
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  margin-left: 15px;
+.add-product-price {
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
 }

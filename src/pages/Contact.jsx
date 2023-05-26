@@ -42,7 +42,7 @@ const Contact = () => {
 	return (
 		<div className="form-container">
 			<Header />
-			<h2 className="contact-us">contactez-nous</h2>
+			<h2 className="contact-us">Contact us</h2>
 			<form ref={form} onSubmit={sendEmail} className="form-content">
 				<label htmlFor="name" className="fa-user">
 					<FaUser size={15} />

@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import Item from '../components/Item';
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
@@ -16,12 +15,7 @@ const Products = () => {
 
 	// Filter by category
 	const filterProductsByCategory = (category) => {
-		let newProduct = [];
-		for (let i = 0; i < product.length; i++) {
-			if (product[i].category === category) {
-				newProduct.push(product[i]);
-			}
-		}
+		const newProduct = product.filter((el) => el.category === category);
 		return setProductCategory(newProduct);
 	};
 
@@ -50,7 +44,9 @@ const Products = () => {
 							/>
 						</ul>
 					</nav>
-					<Item products={productCategory} />
+					<div className="container-card">
+						<Item products={productCategory} />
+					</div>
 				</div>
 			</div>
 		</>

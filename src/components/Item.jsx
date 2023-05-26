@@ -6,7 +6,7 @@ const Item = ({ products }) => {
 	const dispatch = useDispatch();
 
 	return (
-		<div className="card">
+		<>
 			{products &&
 				products?.map((product) => (
 					<div key={product.id} className="card">
@@ -21,7 +21,7 @@ const Item = ({ products }) => {
 						</NavLink>
 					</div>
 				))}
-		</div>
+		</>
 	);
 };
 

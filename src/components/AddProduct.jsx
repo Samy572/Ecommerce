@@ -6,7 +6,6 @@ import { useDispatch } from 'react-redux';
 const AddProduct = ({ itemSelected, price }) => {
 	const [counter, setCounter] = useState(1);
 	const dispatch = useDispatch();
-	console.log(price);
 	const reducesCount = () => {
 		if (counter > 1) {
 			setCounter(counter - 1);
@@ -31,16 +30,17 @@ const AddProduct = ({ itemSelected, price }) => {
 					-
 				</button>
 				<div className="counter">
-					<span className='counter-product'>{counter}</span>
+					<span className="counter-product">{counter}</span>
 				</div>
 				<button className="btn-least" onClick={() => setCounter(counter + 1)}>
 					+
 				</button>
+
+				<button className="add-to-cart" onClick={() => addItemToCart(itemSelected)}>
+					ADD TO CART
+				</button>
 			</div>
-			<button className="add-to-cart" onClick={() => addItemToCart(itemSelected)}>
-				ADD TO CART
-			</button>
-			<span className='add-product-price'>{(price * counter).toFixed(2) + ' €'}</span>
+			<span className="add-product-price">{(price * counter).toFixed(2) + ' €'}</span>
 		</div>
 	);
 };
