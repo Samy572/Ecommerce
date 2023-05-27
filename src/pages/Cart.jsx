@@ -3,6 +3,9 @@ import Header from '../components/Header';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteProduct } from '../action/cart.action';
 import { NavLink } from 'react-router-dom';
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from 'react-toastify';
+
 const Cart = () => {
 	const dispatch = useDispatch();
 	const itemInCart = useSelector((state) => state.cartReducer);
@@ -14,13 +17,36 @@ const Cart = () => {
 		return 'Total : ' + totalPrice.toFixed(2) + ' €';
 	};
 
-	const deleteItem = (id) => {
-		dispatch(deleteProduct(id));
+	const deleteItem = (item) => {
+		const notify = toast.error(`${item.count} x ${item.title} remove from cart`, {
+			position: 'top-center',
+			autoClose: 2000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: true,
+			draggable: true,
+			progress: undefined,
+			theme: 'dark',
+		});
+		dispatch(deleteProduct(item.id));
 	};
 
 	return (
 		<div className="cart">
 			<Header />
+			<ToastContainer
+				position="top-center"
+				autoClose={2000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+				theme="dark"
+				style={{ marginTop: '50px' }}
+			/>
 			{itemInCart.length > 0 ? (
 				<h2>Your shopping cart</h2>
 			) : (
@@ -40,7 +66,7 @@ const Cart = () => {
 								<p className="cart-price"> {item?.price} €</p>
 								<p className="cart-count">x {item?.count}</p>
 								<p className="cart-total">{(item?.price * item?.count).toFixed(2)} €</p>
-								<button className="cart-delete" onClick={() => deleteItem(item.id)}>
+								<button className="cart-delete" onClick={() => deleteItem(item)}>
 									X
 								</button>
 							</div>

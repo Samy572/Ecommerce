@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { addToCart } from '../action/cart.action';
 import { useDispatch } from 'react-redux';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 
 const AddProduct = ({ itemSelected, price }) => {
 	const [counter, setCounter] = useState(1);
@@ -20,11 +22,38 @@ const AddProduct = ({ itemSelected, price }) => {
 			id: itemSelected.id,
 		};
 
+		const notify = toast.success(
+			`${newProduct.count} x ${newProduct.title} added to cart`,
+			{
+				position: 'top-center',
+				autoClose: 2000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+				theme: 'dark',
+			}
+		);
+
 		await dispatch(addToCart(newProduct));
 	};
 
 	return (
 		<div className="button-container-add-to-cart">
+			<ToastContainer
+				position="top-center"
+				autoClose={2000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+				theme="dark"
+				style={{ marginTop: '50px' }}
+			/>
 			<div className="button-container">
 				<button className="btn-more" onClick={() => reducesCount()}>
 					-
